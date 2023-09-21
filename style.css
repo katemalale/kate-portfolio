@@ -15,6 +15,25 @@
 /*
  * Base structure
  */
+.banner-wrap {
+  background-image: url(asset/neeee.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  border-bottom: 10px solid #222;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+}
 
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
