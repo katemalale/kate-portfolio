@@ -11,9 +11,6 @@
  * Base structure
  */
 
-body {
-}
-
 /*
  * Header
  */
@@ -25,7 +22,7 @@ body {
   position: relative;
   z-index: 1;
 }
-}
+
 .overlay {
   z-index: -1;
   height: 100%;
